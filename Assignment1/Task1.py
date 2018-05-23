@@ -8,4 +8,4 @@ for elem in toparse:
     print(re.findall(r"[A-Z][a-z]+(?=[A-Z])|[\'\w\-\$]+|[\,\.\!\@\#\&\*]+",x))
     #[A-Z][a-z]+(?=[A-Z] == AvailableOnly)
     #[\'\w\-\$]+ == any word with - ' and $ preserved
-    # recognizes special characters as tokens as WeLL
+    #[\,\.\!\@\#\&\*]+ == recognizes special characters as tokens as well
