@@ -1,0 +1,533 @@
+[Command: python -u 'C:\Users\Simran Khanuja\Desktop\NLP\assignment1\Task2.py']
+Unigram Frequency:
+
+Counter({'I': 1, 'want': 1, 'to': 1, 'eat': 1, 'chinese': 1, 'food': 1})
+Unigram Probability:
+
+I : 0.16666666666666666
+
+want : 0.16666666666666666
+
+to : 0.16666666666666666
+
+eat : 0.16666666666666666
+
+chinese : 0.16666666666666666
+
+food : 0.16666666666666666
+
+Bigram Frequency :
+
+Counter({('I', 'want'): 1, ('want', 'to'): 1, ('to', 'eat'): 1, ('eat', 'chinese'): 1, ('chinese', 'food'): 1, ('I', 'I'): 0, ('I', 'to'): 0, ('I', 'eat'): 0, ('I', 'chinese'): 0, ('I', 'food'): 0, ('want', 'I'): 0, ('want', 'want'): 0, ('want', 'eat'): 0, ('want', 'chinese'): 0, ('want', 'food'): 0, ('to', 'I'): 0, ('to', 'want'): 0, ('to', 'to'): 0, ('to', 'chinese'): 0, ('to', 'food'): 0, ('eat', 'I'): 0, ('eat', 'want'): 0, ('eat', 'to'): 0, ('eat', 'eat'): 0, ('eat', 'food'): 0, ('chinese', 'I'): 0, ('chinese', 'want'): 0, ('chinese', 'to'): 0, ('chinese', 'eat'): 0, ('chinese', 'chinese'): 0, ('food', 'I'): 0, ('food', 'want'): 0, ('food', 'to'): 0, ('food', 'eat'): 0, ('food', 'chinese'): 0, ('food', 'food'): 0})
+Bigram Probability (Conditional) / (Joint) :
+
+('I', 'want') :  1.0  0.027777777777777776
+
+('want', 'to') :  1.0  0.027777777777777776
+
+('to', 'eat') :  1.0  0.027777777777777776
+
+('eat', 'chinese') :  1.0  0.027777777777777776
+
+('chinese', 'food') :  1.0  0.027777777777777776
+
+('I', 'I') :  0.0  0.027777777777777776
+
+('I', 'to') :  0.0  0.027777777777777776
+
+('I', 'eat') :  0.0  0.027777777777777776
+
+('I', 'chinese') :  0.0  0.027777777777777776
+
+('I', 'food') :  0.0  0.027777777777777776
+
+('want', 'I') :  0.0  0.027777777777777776
+
+('want', 'want') :  0.0  0.027777777777777776
+
+('want', 'eat') :  0.0  0.027777777777777776
+
+('want', 'chinese') :  0.0  0.027777777777777776
+
+('want', 'food') :  0.0  0.027777777777777776
+
+('to', 'I') :  0.0  0.027777777777777776
+
+('to', 'want') :  0.0  0.027777777777777776
+
+('to', 'to') :  0.0  0.027777777777777776
+
+('to', 'chinese') :  0.0  0.027777777777777776
+
+('to', 'food') :  0.0  0.027777777777777776
+
+('eat', 'I') :  0.0  0.027777777777777776
+
+('eat', 'want') :  0.0  0.027777777777777776
+
+('eat', 'to') :  0.0  0.027777777777777776
+
+('eat', 'eat') :  0.0  0.027777777777777776
+
+('eat', 'food') :  0.0  0.027777777777777776
+
+('chinese', 'I') :  0.0  0.027777777777777776
+
+('chinese', 'want') :  0.0  0.027777777777777776
+
+('chinese', 'to') :  0.0  0.027777777777777776
+
+('chinese', 'eat') :  0.0  0.027777777777777776
+
+('chinese', 'chinese') :  0.0  0.027777777777777776
+
+('food', 'I') :  0.0  0.027777777777777776
+
+('food', 'want') :  0.0  0.027777777777777776
+
+('food', 'to') :  0.0  0.027777777777777776
+
+('food', 'eat') :  0.0  0.027777777777777776
+
+('food', 'chinese') :  0.0  0.027777777777777776
+
+('food', 'food') :  0.0  0.027777777777777776
+
+Trigram Frequency :
+
+Counter({('I', 'want', 'to'): 1, ('want', 'to', 'eat'): 1, ('to', 'eat', 'chinese'): 1, ('eat', 'chinese', 'food'): 1, ('I', 'want', 'I'): 0, ('I', 'want', 'want'): 0, ('I', 'want', 'eat'): 0, ('I', 'want', 'chinese'): 0, ('I', 'want', 'food'): 0, ('want', 'to', 'I'): 0, ('want', 'to', 'want'): 0, ('want', 'to', 'to'): 0, ('want', 'to', 'chinese'): 0, ('want', 'to', 'food'): 0, ('to', 'eat', 'I'): 0, ('to', 'eat', 'want'): 0, ('to', 'eat', 'to'): 0, ('to', 'eat', 'eat'): 0, ('to', 'eat', 'food'): 0, ('eat', 'chinese', 'I'): 0, ('eat', 'chinese', 'want'): 0, ('eat', 'chinese', 'to'): 0, ('eat', 'chinese', 'eat'): 0, ('eat', 'chinese', 'chinese'): 0, ('chinese', 'food', 'I'): 0, ('chinese', 'food', 'want'): 0, ('chinese', 'food', 'to'): 0, ('chinese', 'food', 'eat'): 0, ('chinese', 'food', 'chinese'): 0, ('chinese', 'food', 'food'): 0, ('I', 'I', 'I'): 0, ('I', 'I', 'want'): 0, ('I', 'I', 'to'): 0, ('I', 'I', 'eat'): 0, ('I', 'I', 'chinese'): 0, ('I', 'I', 'food'): 0, ('I', 'to', 'I'): 0, ('I', 'to', 'want'): 0, ('I', 'to', 'to'): 0, ('I', 'to', 'eat'): 0, ('I', 'to', 'chinese'): 0, ('I', 'to', 'food'): 0, ('I', 'eat', 'I'): 0, ('I', 'eat', 'want'): 0, ('I', 'eat', 'to'): 0, ('I', 'eat', 'eat'): 0, ('I', 'eat', 'chinese'): 0, ('I', 'eat', 'food'): 0, ('I', 'chinese', 'I'): 0, ('I', 'chinese', 'want'): 0, ('I', 'chinese', 'to'): 0, ('I', 'chinese', 'eat'): 0, ('I', 'chinese', 'chinese'): 0, ('I', 'chinese', 'food'): 0, ('I', 'food', 'I'): 0, ('I', 'food', 'want'): 0, ('I', 'food', 'to'): 0, ('I', 'food', 'eat'): 0, ('I', 'food', 'chinese'): 0, ('I', 'food', 'food'): 0, ('want', 'I', 'I'): 0, ('want', 'I', 'want'): 0, ('want', 'I', 'to'): 0, ('want', 'I', 'eat'): 0, ('want', 'I', 'chinese'): 0, ('want', 'I', 'food'): 0, ('want', 'want', 'I'): 0, ('want', 'want', 'want'): 0, ('want', 'want', 'to'): 0, ('want', 'want', 'eat'): 0, ('want', 'want', 'chinese'): 0, ('want', 'want', 'food'): 0, ('want', 'eat', 'I'): 0, ('want', 'eat', 'want'): 0, ('want', 'eat', 'to'): 0, ('want', 'eat', 'eat'): 0, ('want', 'eat', 'chinese'): 0, ('want', 'eat', 'food'): 0, ('want', 'chinese', 'I'): 0, ('want', 'chinese', 'want'): 0, ('want', 'chinese', 'to'): 0, ('want', 'chinese', 'eat'): 0, ('want', 'chinese', 'chinese'): 0, ('want', 'chinese', 'food'): 0, ('want', 'food', 'I'): 0, ('want', 'food', 'want'): 0, ('want', 'food', 'to'): 0, ('want', 'food', 'eat'): 0, ('want', 'food', 'chinese'): 0, ('want', 'food', 'food'): 0, ('to', 'I', 'I'): 0, ('to', 'I', 'want'): 0, ('to', 'I', 'to'): 0, ('to', 'I', 'eat'): 0, ('to', 'I', 'chinese'): 0, ('to', 'I', 'food'): 0, ('to', 'want', 'I'): 0, ('to', 'want', 'want'): 0, ('to', 'want', 'to'): 0, ('to', 'want', 'eat'): 0, ('to', 'want', 'chinese'): 0, ('to', 'want', 'food'): 0, ('to', 'to', 'I'): 0, ('to', 'to', 'want'): 0, ('to', 'to', 'to'): 0, ('to', 'to', 'eat'): 0, ('to', 'to', 'chinese'): 0, ('to', 'to', 'food'): 0, ('to', 'chinese', 'I'): 0, ('to', 'chinese', 'want'): 0, ('to', 'chinese', 'to'): 0, ('to', 'chinese', 'eat'): 0, ('to', 'chinese', 'chinese'): 0, ('to', 'chinese', 'food'): 0, ('to', 'food', 'I'): 0, ('to', 'food', 'want'): 0, ('to', 'food', 'to'): 0, ('to', 'food', 'eat'): 0, ('to', 'food', 'chinese'): 0, ('to', 'food', 'food'): 0, ('eat', 'I', 'I'): 0, ('eat', 'I', 'want'): 0, ('eat', 'I', 'to'): 0, ('eat', 'I', 'eat'): 0, ('eat', 'I', 'chinese'): 0, ('eat', 'I', 'food'): 0, ('eat', 'want', 'I'): 0, ('eat', 'want', 'want'): 0, ('eat', 'want', 'to'): 0, ('eat', 'want', 'eat'): 0, ('eat', 'want', 'chinese'): 0, ('eat', 'want', 'food'): 0, ('eat', 'to', 'I'): 0, ('eat', 'to', 'want'): 0, ('eat', 'to', 'to'): 0, ('eat', 'to', 'eat'): 0, ('eat', 'to', 'chinese'): 0, ('eat', 'to', 'food'): 0, ('eat', 'eat', 'I'): 0, ('eat', 'eat', 'want'): 0, ('eat', 'eat', 'to'): 0, ('eat', 'eat', 'eat'): 0, ('eat', 'eat', 'chinese'): 0, ('eat', 'eat', 'food'): 0, ('eat', 'food', 'I'): 0, ('eat', 'food', 'want'): 0, ('eat', 'food', 'to'): 0, ('eat', 'food', 'eat'): 0, ('eat', 'food', 'chinese'): 0, ('eat', 'food', 'food'): 0, ('chinese', 'I', 'I'): 0, ('chinese', 'I', 'want'): 0, ('chinese', 'I', 'to'): 0, ('chinese', 'I', 'eat'): 0, ('chinese', 'I', 'chinese'): 0, ('chinese', 'I', 'food'): 0, ('chinese', 'want', 'I'): 0, ('chinese', 'want', 'want'): 0, ('chinese', 'want', 'to'): 0, ('chinese', 'want', 'eat'): 0, ('chinese', 'want', 'chinese'): 0, ('chinese', 'want', 'food'): 0, ('chinese', 'to', 'I'): 0, ('chinese', 'to', 'want'): 0, ('chinese', 'to', 'to'): 0, ('chinese', 'to', 'eat'): 0, ('chinese', 'to', 'chinese'): 0, ('chinese', 'to', 'food'): 0, ('chinese', 'eat', 'I'): 0, ('chinese', 'eat', 'want'): 0, ('chinese', 'eat', 'to'): 0, ('chinese', 'eat', 'eat'): 0, ('chinese', 'eat', 'chinese'): 0, ('chinese', 'eat', 'food'): 0, ('chinese', 'chinese', 'I'): 0, ('chinese', 'chinese', 'want'): 0, ('chinese', 'chinese', 'to'): 0, ('chinese', 'chinese', 'eat'): 0, ('chinese', 'chinese', 'chinese'): 0, ('chinese', 'chinese', 'food'): 0, ('food', 'I', 'I'): 0, ('food', 'I', 'want'): 0, ('food', 'I', 'to'): 0, ('food', 'I', 'eat'): 0, ('food', 'I', 'chinese'): 0, ('food', 'I', 'food'): 0, ('food', 'want', 'I'): 0, ('food', 'want', 'want'): 0, ('food', 'want', 'to'): 0, ('food', 'want', 'eat'): 0, ('food', 'want', 'chinese'): 0, ('food', 'want', 'food'): 0, ('food', 'to', 'I'): 0, ('food', 'to', 'want'): 0, ('food', 'to', 'to'): 0, ('food', 'to', 'eat'): 0, ('food', 'to', 'chinese'): 0, ('food', 'to', 'food'): 0, ('food', 'eat', 'I'): 0, ('food', 'eat', 'want'): 0, ('food', 'eat', 'to'): 0, ('food', 'eat', 'eat'): 0, ('food', 'eat', 'chinese'): 0, ('food', 'eat', 'food'): 0, ('food', 'chinese', 'I'): 0, ('food', 'chinese', 'want'): 0, ('food', 'chinese', 'to'): 0, ('food', 'chinese', 'eat'): 0, ('food', 'chinese', 'chinese'): 0, ('food', 'chinese', 'food'): 0, ('food', 'food', 'I'): 0, ('food', 'food', 'want'): 0, ('food', 'food', 'to'): 0, ('food', 'food', 'eat'): 0, ('food', 'food', 'chinese'): 0, ('food', 'food', 'food'): 0})
+Trigram Probability  (Conditional) / (Joint):
+
+('I', 'want', 'to') :  1.0  0.004629629629629629
+
+('want', 'to', 'eat') :  1.0  0.004629629629629629
+
+('to', 'eat', 'chinese') :  1.0  0.004629629629629629
+
+('eat', 'chinese', 'food') :  1.0  0.004629629629629629
+
+('I', 'want', 'I') :  0.0  0.004629629629629629
+
+('I', 'want', 'want') :  0.0  0.004629629629629629
+
+('I', 'want', 'eat') :  0.0  0.004629629629629629
+
+('I', 'want', 'chinese') :  0.0  0.004629629629629629
+
+('I', 'want', 'food') :  0.0  0.004629629629629629
+
+('want', 'to', 'I') :  0.0  0.004629629629629629
+
+('want', 'to', 'want') :  0.0  0.004629629629629629
+
+('want', 'to', 'to') :  0.0  0.004629629629629629
+
+('want', 'to', 'chinese') :  0.0  0.004629629629629629
+
+('want', 'to', 'food') :  0.0  0.004629629629629629
+
+('to', 'eat', 'I') :  0.0  0.004629629629629629
+
+('to', 'eat', 'want') :  0.0  0.004629629629629629
+
+('to', 'eat', 'to') :  0.0  0.004629629629629629
+
+('to', 'eat', 'eat') :  0.0  0.004629629629629629
+
+('to', 'eat', 'food') :  0.0  0.004629629629629629
+
+('eat', 'chinese', 'I') :  0.0  0.004629629629629629
+
+('eat', 'chinese', 'want') :  0.0  0.004629629629629629
+
+('eat', 'chinese', 'to') :  0.0  0.004629629629629629
+
+('eat', 'chinese', 'eat') :  0.0  0.004629629629629629
+
+('eat', 'chinese', 'chinese') :  0.0  0.004629629629629629
+
+('chinese', 'food', 'I') :  0.0  0.004629629629629629
+
+('chinese', 'food', 'want') :  0.0  0.004629629629629629
+
+('chinese', 'food', 'to') :  0.0  0.004629629629629629
+
+('chinese', 'food', 'eat') :  0.0  0.004629629629629629
+
+('chinese', 'food', 'chinese') :  0.0  0.004629629629629629
+
+('chinese', 'food', 'food') :  0.0  0.004629629629629629
+
+('I', 'I', 'I') :  0  0.004629629629629629
+
+('I', 'I', 'want') :  0  0.004629629629629629
+
+('I', 'I', 'to') :  0  0.004629629629629629
+
+('I', 'I', 'eat') :  0  0.004629629629629629
+
+('I', 'I', 'chinese') :  0  0.004629629629629629
+
+('I', 'I', 'food') :  0  0.004629629629629629
+
+('I', 'to', 'I') :  0  0.004629629629629629
+
+('I', 'to', 'want') :  0  0.004629629629629629
+
+('I', 'to', 'to') :  0  0.004629629629629629
+
+('I', 'to', 'eat') :  0  0.004629629629629629
+
+('I', 'to', 'chinese') :  0  0.004629629629629629
+
+('I', 'to', 'food') :  0  0.004629629629629629
+
+('I', 'eat', 'I') :  0  0.004629629629629629
+
+('I', 'eat', 'want') :  0  0.004629629629629629
+
+('I', 'eat', 'to') :  0  0.004629629629629629
+
+('I', 'eat', 'eat') :  0  0.004629629629629629
+
+('I', 'eat', 'chinese') :  0  0.004629629629629629
+
+('I', 'eat', 'food') :  0  0.004629629629629629
+
+('I', 'chinese', 'I') :  0  0.004629629629629629
+
+('I', 'chinese', 'want') :  0  0.004629629629629629
+
+('I', 'chinese', 'to') :  0  0.004629629629629629
+
+('I', 'chinese', 'eat') :  0  0.004629629629629629
+
+('I', 'chinese', 'chinese') :  0  0.004629629629629629
+
+('I', 'chinese', 'food') :  0  0.004629629629629629
+
+('I', 'food', 'I') :  0  0.004629629629629629
+
+('I', 'food', 'want') :  0  0.004629629629629629
+
+('I', 'food', 'to') :  0  0.004629629629629629
+
+('I', 'food', 'eat') :  0  0.004629629629629629
+
+('I', 'food', 'chinese') :  0  0.004629629629629629
+
+('I', 'food', 'food') :  0  0.004629629629629629
+
+('want', 'I', 'I') :  0  0.004629629629629629
+
+('want', 'I', 'want') :  0  0.004629629629629629
+
+('want', 'I', 'to') :  0  0.004629629629629629
+
+('want', 'I', 'eat') :  0  0.004629629629629629
+
+('want', 'I', 'chinese') :  0  0.004629629629629629
+
+('want', 'I', 'food') :  0  0.004629629629629629
+
+('want', 'want', 'I') :  0  0.004629629629629629
+
+('want', 'want', 'want') :  0  0.004629629629629629
+
+('want', 'want', 'to') :  0  0.004629629629629629
+
+('want', 'want', 'eat') :  0  0.004629629629629629
+
+('want', 'want', 'chinese') :  0  0.004629629629629629
+
+('want', 'want', 'food') :  0  0.004629629629629629
+
+('want', 'eat', 'I') :  0  0.004629629629629629
+
+('want', 'eat', 'want') :  0  0.004629629629629629
+
+('want', 'eat', 'to') :  0  0.004629629629629629
+
+('want', 'eat', 'eat') :  0  0.004629629629629629
+
+('want', 'eat', 'chinese') :  0  0.004629629629629629
+
+('want', 'eat', 'food') :  0  0.004629629629629629
+
+('want', 'chinese', 'I') :  0  0.004629629629629629
+
+('want', 'chinese', 'want') :  0  0.004629629629629629
+
+('want', 'chinese', 'to') :  0  0.004629629629629629
+
+('want', 'chinese', 'eat') :  0  0.004629629629629629
+
+('want', 'chinese', 'chinese') :  0  0.004629629629629629
+
+('want', 'chinese', 'food') :  0  0.004629629629629629
+
+('want', 'food', 'I') :  0  0.004629629629629629
+
+('want', 'food', 'want') :  0  0.004629629629629629
+
+('want', 'food', 'to') :  0  0.004629629629629629
+
+('want', 'food', 'eat') :  0  0.004629629629629629
+
+('want', 'food', 'chinese') :  0  0.004629629629629629
+
+('want', 'food', 'food') :  0  0.004629629629629629
+
+('to', 'I', 'I') :  0  0.004629629629629629
+
+('to', 'I', 'want') :  0  0.004629629629629629
+
+('to', 'I', 'to') :  0  0.004629629629629629
+
+('to', 'I', 'eat') :  0  0.004629629629629629
+
+('to', 'I', 'chinese') :  0  0.004629629629629629
+
+('to', 'I', 'food') :  0  0.004629629629629629
+
+('to', 'want', 'I') :  0  0.004629629629629629
+
+('to', 'want', 'want') :  0  0.004629629629629629
+
+('to', 'want', 'to') :  0  0.004629629629629629
+
+('to', 'want', 'eat') :  0  0.004629629629629629
+
+('to', 'want', 'chinese') :  0  0.004629629629629629
+
+('to', 'want', 'food') :  0  0.004629629629629629
+
+('to', 'to', 'I') :  0  0.004629629629629629
+
+('to', 'to', 'want') :  0  0.004629629629629629
+
+('to', 'to', 'to') :  0  0.004629629629629629
+
+('to', 'to', 'eat') :  0  0.004629629629629629
+
+('to', 'to', 'chinese') :  0  0.004629629629629629
+
+('to', 'to', 'food') :  0  0.004629629629629629
+
+('to', 'chinese', 'I') :  0  0.004629629629629629
+
+('to', 'chinese', 'want') :  0  0.004629629629629629
+
+('to', 'chinese', 'to') :  0  0.004629629629629629
+
+('to', 'chinese', 'eat') :  0  0.004629629629629629
+
+('to', 'chinese', 'chinese') :  0  0.004629629629629629
+
+('to', 'chinese', 'food') :  0  0.004629629629629629
+
+('to', 'food', 'I') :  0  0.004629629629629629
+
+('to', 'food', 'want') :  0  0.004629629629629629
+
+('to', 'food', 'to') :  0  0.004629629629629629
+
+('to', 'food', 'eat') :  0  0.004629629629629629
+
+('to', 'food', 'chinese') :  0  0.004629629629629629
+
+('to', 'food', 'food') :  0  0.004629629629629629
+
+('eat', 'I', 'I') :  0  0.004629629629629629
+
+('eat', 'I', 'want') :  0  0.004629629629629629
+
+('eat', 'I', 'to') :  0  0.004629629629629629
+
+('eat', 'I', 'eat') :  0  0.004629629629629629
+
+('eat', 'I', 'chinese') :  0  0.004629629629629629
+
+('eat', 'I', 'food') :  0  0.004629629629629629
+
+('eat', 'want', 'I') :  0  0.004629629629629629
+
+('eat', 'want', 'want') :  0  0.004629629629629629
+
+('eat', 'want', 'to') :  0  0.004629629629629629
+
+('eat', 'want', 'eat') :  0  0.004629629629629629
+
+('eat', 'want', 'chinese') :  0  0.004629629629629629
+
+('eat', 'want', 'food') :  0  0.004629629629629629
+
+('eat', 'to', 'I') :  0  0.004629629629629629
+
+('eat', 'to', 'want') :  0  0.004629629629629629
+
+('eat', 'to', 'to') :  0  0.004629629629629629
+
+('eat', 'to', 'eat') :  0  0.004629629629629629
+
+('eat', 'to', 'chinese') :  0  0.004629629629629629
+
+('eat', 'to', 'food') :  0  0.004629629629629629
+
+('eat', 'eat', 'I') :  0  0.004629629629629629
+
+('eat', 'eat', 'want') :  0  0.004629629629629629
+
+('eat', 'eat', 'to') :  0  0.004629629629629629
+
+('eat', 'eat', 'eat') :  0  0.004629629629629629
+
+('eat', 'eat', 'chinese') :  0  0.004629629629629629
+
+('eat', 'eat', 'food') :  0  0.004629629629629629
+
+('eat', 'food', 'I') :  0  0.004629629629629629
+
+('eat', 'food', 'want') :  0  0.004629629629629629
+
+('eat', 'food', 'to') :  0  0.004629629629629629
+
+('eat', 'food', 'eat') :  0  0.004629629629629629
+
+('eat', 'food', 'chinese') :  0  0.004629629629629629
+
+('eat', 'food', 'food') :  0  0.004629629629629629
+
+('chinese', 'I', 'I') :  0  0.004629629629629629
+
+('chinese', 'I', 'want') :  0  0.004629629629629629
+
+('chinese', 'I', 'to') :  0  0.004629629629629629
+
+('chinese', 'I', 'eat') :  0  0.004629629629629629
+
+('chinese', 'I', 'chinese') :  0  0.004629629629629629
+
+('chinese', 'I', 'food') :  0  0.004629629629629629
+
+('chinese', 'want', 'I') :  0  0.004629629629629629
+
+('chinese', 'want', 'want') :  0  0.004629629629629629
+
+('chinese', 'want', 'to') :  0  0.004629629629629629
+
+('chinese', 'want', 'eat') :  0  0.004629629629629629
+
+('chinese', 'want', 'chinese') :  0  0.004629629629629629
+
+('chinese', 'want', 'food') :  0  0.004629629629629629
+
+('chinese', 'to', 'I') :  0  0.004629629629629629
+
+('chinese', 'to', 'want') :  0  0.004629629629629629
+
+('chinese', 'to', 'to') :  0  0.004629629629629629
+
+('chinese', 'to', 'eat') :  0  0.004629629629629629
+
+('chinese', 'to', 'chinese') :  0  0.004629629629629629
+
+('chinese', 'to', 'food') :  0  0.004629629629629629
+
+('chinese', 'eat', 'I') :  0  0.004629629629629629
+
+('chinese', 'eat', 'want') :  0  0.004629629629629629
+
+('chinese', 'eat', 'to') :  0  0.004629629629629629
+
+('chinese', 'eat', 'eat') :  0  0.004629629629629629
+
+('chinese', 'eat', 'chinese') :  0  0.004629629629629629
+
+('chinese', 'eat', 'food') :  0  0.004629629629629629
+
+('chinese', 'chinese', 'I') :  0  0.004629629629629629
+
+('chinese', 'chinese', 'want') :  0  0.004629629629629629
+
+('chinese', 'chinese', 'to') :  0  0.004629629629629629
+
+('chinese', 'chinese', 'eat') :  0  0.004629629629629629
+
+('chinese', 'chinese', 'chinese') :  0  0.004629629629629629
+
+('chinese', 'chinese', 'food') :  0  0.004629629629629629
+
+('food', 'I', 'I') :  0  0.004629629629629629
+
+('food', 'I', 'want') :  0  0.004629629629629629
+
+('food', 'I', 'to') :  0  0.004629629629629629
+
+('food', 'I', 'eat') :  0  0.004629629629629629
+
+('food', 'I', 'chinese') :  0  0.004629629629629629
+
+('food', 'I', 'food') :  0  0.004629629629629629
+
+('food', 'want', 'I') :  0  0.004629629629629629
+
+('food', 'want', 'want') :  0  0.004629629629629629
+
+('food', 'want', 'to') :  0  0.004629629629629629
+
+('food', 'want', 'eat') :  0  0.004629629629629629
+
+('food', 'want', 'chinese') :  0  0.004629629629629629
+
+('food', 'want', 'food') :  0  0.004629629629629629
+
+('food', 'to', 'I') :  0  0.004629629629629629
+
+('food', 'to', 'want') :  0  0.004629629629629629
+
+('food', 'to', 'to') :  0  0.004629629629629629
+
+('food', 'to', 'eat') :  0  0.004629629629629629
+
+('food', 'to', 'chinese') :  0  0.004629629629629629
+
+('food', 'to', 'food') :  0  0.004629629629629629
+
+('food', 'eat', 'I') :  0  0.004629629629629629
+
+('food', 'eat', 'want') :  0  0.004629629629629629
+
+('food', 'eat', 'to') :  0  0.004629629629629629
+
+('food', 'eat', 'eat') :  0  0.004629629629629629
+
+('food', 'eat', 'chinese') :  0  0.004629629629629629
+
+('food', 'eat', 'food') :  0  0.004629629629629629
+
+('food', 'chinese', 'I') :  0  0.004629629629629629
+
+('food', 'chinese', 'want') :  0  0.004629629629629629
+
+('food', 'chinese', 'to') :  0  0.004629629629629629
+
+('food', 'chinese', 'eat') :  0  0.004629629629629629
+
+('food', 'chinese', 'chinese') :  0  0.004629629629629629
+
+('food', 'chinese', 'food') :  0  0.004629629629629629
+
+('food', 'food', 'I') :  0  0.004629629629629629
+
+('food', 'food', 'want') :  0  0.004629629629629629
+
+('food', 'food', 'to') :  0  0.004629629629629629
+
+('food', 'food', 'eat') :  0  0.004629629629629629
+
+('food', 'food', 'chinese') :  0  0.004629629629629629
+
+('food', 'food', 'food') :  0  0.004629629629629629
+
+[Finished in 0.213s]
