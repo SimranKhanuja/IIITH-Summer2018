@@ -9,5 +9,6 @@ for elem in toparse:
     #https?://[\.\w]+ == parsing for urls
     #[\w\._%+-]+@[\w\.-]+\.\w+ == parsing for email addresses
     #[\'\w\-\$]+ == any word with special characters preserved
+    #[A-Z][a-z]+(?=[A-Z]) == parses words like AvailableOnly
     #[\,\.\!\@\#\&\*\/\:]+ == recognizes special character as tokens as well
     
