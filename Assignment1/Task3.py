@@ -14,7 +14,8 @@ toparse = mydoc.getElementsByTagName('text')#make objects of "text" tag
 for elem in toparse:
     x = elem.firstChild.data.encode('ascii', 'ignore').decode()# get data stored in text tag
     y = re.findall(r'https?[\.\:\/\w]+|[A-Z][a-z]+(?=[A-Z])|[\'\w\-\$]+|[\,\.\!\@\#\&\*]+',x)# tokenization of the data
-    start = start + y[0] #storing the starting words
+    if len(y) is not 0:
+        start.append(y[0]) #storing the starting words
     unigrams = unigrams + y #update list of unigrams
     z = [(y[i],y[i+1]) for i in range(0,len(y)-1)] #make bigram pairs of the tokens
     bigrams = bigrams + z #update bigram list
