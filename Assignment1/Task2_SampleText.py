@@ -5,10 +5,6 @@ unigrams = []
 bigrams = []
 trigrams = []
 probUni = {}
-#mydoc = minidom.parse(r'C:\Users\Simran Khanuja\.atom\packages\script\smsCorpus_en_2014.09.06_all.xml')#importing xml file data
-#toparse = mydoc.getElementsByTagName('text')#make objects of "text" tag
-#for elem in toparse:
-#x = elem.firstChild.data.encode('ascii', 'ignore').decode()# get data stored in text tag
 x = "I want to eat chinese food"
 y = re.findall(r'https?[\.\:\/\w]+|[A-Z][a-z]+(?=[A-Z])|[\'\w\-\$]+|[\,\.\!\@\#\&\*]+',x)# tokenization of the data
 unigrams = unigrams + y #update list of unigrams
@@ -22,8 +18,6 @@ countTri = Counter(trigrams)
 totalUni = sum(countUni.values()) #counting the total number of unigrams
 print("Unigram Frequency:\n")
 print(countUni)
-#for word in countUni:
-    #print(word + "\n")
 print("Unigram Probability:\n")
 for word in countUni.keys():
     wc = countUni.get(word) # getting unigram count
