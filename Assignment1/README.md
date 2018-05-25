@@ -4,4 +4,3 @@ Task 1 : Tokenization is the process of identification of tokens. Example: 'On T
 
 Task 2 : After the tokenization in problem 1, find out the unigram, bigram and trigram frequencies and their probabilities of the words apearing in the messages. If you have not read about n-grams, read the Jurafsky book. Bigram and trigram probabilities can be calculated either by joint or conditional probabilities.
 
-Task 3 : Find the probability of a sentence, use markov chains for this evaluation. If a word has not appeared in your text before, its probability will become zero in that case. So how will you handle those cases? Read about smoothing and you will get your answer. Implement one smoothing technique, and find out the shortcomings of smoothing.
