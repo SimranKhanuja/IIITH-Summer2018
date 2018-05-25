@@ -61,16 +61,16 @@ prob = 1
 #NO SMOOTHING - calculating bigram probabilities of 10 randomly generated sentences
 while(i<10):
     word = random.choice(unigrams)
-    if sentence is empty():
+    if len(sentence) is 0:
         prob = startUni.get(word)#assigning start word prob to start word
     else:
         if((sentence[len(sentence)-1],word) in bigrams):
             prob = prob * probBi.get(sentence[len(sentence)-1],word)
         else:
             prob = 0   #assigning zero prob to sentence for unrecognized bigram
-    sentence = sentence + word
-    if word is '.':
-        print(sentence + " : " + str(prob))
+    sentence.append(word)
+    if word is '.':    #checking for end of sentence
+        print(" ".join(sentence) + " : " + str(prob))
         sentence = []
         prob = 1
         i = i+1
