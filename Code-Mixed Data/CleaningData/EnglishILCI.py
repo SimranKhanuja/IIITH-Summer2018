@@ -12,7 +12,7 @@ with open("/home/user/Desktop/Code-Mixed Data/Hindi-English-Parallel/ILCI-Corpus
             sent = ""
         else:
             index = line.find('\t') #separating word from the pos tag
-            if line[0] is "." : 
+            if line[0] in (".", "?","!") : 
                 continue
             else:
                 sent = sent + line[0:int(index)] + " " #appending word to make sentence
@@ -21,3 +21,4 @@ for line in sentences:# write line to output file
     outF.write(line)
     outF.write("\n")
 outF.close()
+
