@@ -7,7 +7,7 @@
 code_mixed_sent=[]
 sentence_id=1
 
-mixed_file = open('/home/muskaan/code mixed/code_mixed_flight.txt',"w",encoding='utf-8')
+mixed_file = open('/home/muskaan/code mixed/code_mixed.txt',"w",encoding='utf-8')
 
 # returns list having all the possible translations of the eng_word[i]
 def get_list_from_file(eng_word):
@@ -419,45 +419,4 @@ for m in range(len(ln_eng)-1):
     code_mixed_sent=[]
 mixed_file.close()
 
-
-# In[55]:
-
-
-phrase_tags_eng
-
-
-# In[26]:
-
-
-heads_hin
-
-
-# In[57]:
-
-
-phrases_hin
-
-
-# In[56]:
-
-
-words_tags_eng
-
-
-# In[65]:
-
-
-heads_hin[j]
-
-
-# In[49]:
-
-
-get_list_from_file("pieces")
-
-
-# In[219]:
-
-
-ln_eng
 
