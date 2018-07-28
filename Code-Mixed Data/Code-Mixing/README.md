@@ -1,0 +1,19 @@
+## Format for files
+
+### hindi_aligned (1).txt and SampleNewAllFinal---->
+
+
+<SentenceID>
+<*><\t><PhraseTag><\t><HeadOfThisPhrase>
+<@><\t><POSTag><\t><WordInPhrase>
+....
+....
+....
+<*><\t><PhraseTagOfNextPhrase><\t><HeadOfNextPhrase>
+<@><\t><POStag><\t><WordInPhrase>
+....
+....
+....
+#
+<NextSentenceID>
+
