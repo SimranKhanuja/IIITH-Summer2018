@@ -143,10 +143,3 @@ en.close()
         
 
 
-# In[103]:
-
-
-ptree = ParentedTree.fromstring(content[8])
-ptree.pretty_print()
-len(allsent)
-
