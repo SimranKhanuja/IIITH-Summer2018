@@ -1,28 +1,3 @@
-
-
-
-
-
-
-
-
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @SimranKhanuja Sign out
-0
-0 0 SimranKhanuja/IIITH-Summer2018
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-IIITH-Summer2018/Code-Mixed Data/Code-Mixing/NP_Replacement_English.py
-0a0884c  14 minutes ago
-@SimranKhanuja SimranKhanuja Update and rename NP_Replacement_Final.py to NP_Replacement_English.py
-     
-173 lines (149 sloc)  4.8 KB
 #Opening files
 eng = open('EnglishParsed',encoding='utf-8')
 content = eng.read().split("\n")
@@ -161,3 +136,10 @@ for (i,x) in enumerate(new_phrase_tags_hin[:1000]):
             temp_sent.append(new_phrases_hin[i][j])
     newsentences.append(temp_sent)
     temp_sent = []
+
+# For writing into the file :
+codemixed = open("CodeMixedHindi.txt",'w',encoding='utf-8')
+for i in newsentenceseng:
+    codemixed.write(" ".join(x for x in i))
+    codemixed.write("\n")
+codemixed.close()
