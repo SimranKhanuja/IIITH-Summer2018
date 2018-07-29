@@ -1,30 +1,7 @@
-
-# coding: utf-8
-
-# ### Create chunks in English which are consistent with the chunks output by the Hindi parser.
-# Hindi Parser :- LTRC Shallow Hindi Parser, IIIT Hyderabad
-# English Parser :- Stanford Parser
-# 
-# #### Chunk and head tag rules in Hindi Parser-
-# ^NP    : NN.*|PRP
-# ^VG.*  : VM
-# ^JJP   : JJ|QF|QC|QO
-# ^RBP   : RB
-# ^FRAGP : PSP|RP
-# ^NEGP  : NEG
-# ^CCP   : CC
-# ^BLK   : SYM
-# 
-# #### Analogies between Hindi and English(Penn Treebank - used by stanford parser) Tags-
-# 
-
-# In[99]:
-
-
 #Creating a dictionary of phrase tags with it's corresponding heads according to the rules of the Hindi parser 
 #to create chunks in English which are consistent with the chunks output by the Hindi parser.
 from nltk.tree import ParentedTree
-eng=open('ParsedLowEngWPOSingle.txt',encoding='utf-8')
+eng=open('FormatForInputToEnglishHeadCode',encoding='utf-8')
 content = eng.read().split("\n")
 allsent = []
 allpos = []
@@ -61,7 +38,7 @@ for q in content:
         if(indexnp<indexp and indexnp!=(-1)):
             indexp = indexnp
         pos.update({x:p[1:indexp]})
-        while(i>-(ptree.height())):
+        while(i>-(ptree.height())):    # going up the parse tree till we dont get a chunk tag for the word as specifie by the list above
             indexy = y.find(" ")
             indexny = y.find("\n")
             if(indexny<indexy and indexny!=(-1)):
@@ -143,7 +120,7 @@ for x in allsent:
 # In[102]:
 
 
-en = open('SampleNewAllFinal','w',encoding='utf-8')
+en = open('EnlishParsed','w',encoding='utf-8')
 for (j,i) in enumerate(allsent):
     en.write("SentenceID:" + str(j+1))
     en.write("\n")
