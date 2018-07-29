@@ -1,4 +1,4 @@
-hindi = open("HindiShallowParse",encoding = 'utf-8')
+hindi = open("HindiShallowParse.txt",encoding = 'utf-8')
 content = hindi.read().split("\n")
 temp_phrase_sent = []
 temp_tags_sent = []
@@ -48,7 +48,7 @@ for i in content:
             
             
             
-en = open('HindiParsed','w',encoding='utf-8')
+en = open('HindiParsed.txt','w',encoding='utf-8')
 for (j,i) in enumerate(phrases_all):
     en.write("SentenceID:" + str(j+1))
     en.write("\n")
