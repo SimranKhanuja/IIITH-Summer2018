@@ -139,7 +139,7 @@ for (i,x) in enumerate(new_phrase_tags_hin[:1000]):
 
 # For writing into the file :
 codemixed = open("CodeMixedHindi.txt",'w',encoding='utf-8')
-for i in newsentenceseng:
+for i in newsentences:
     codemixed.write(" ".join(x for x in i))
     codemixed.write("\n")
 codemixed.close()
