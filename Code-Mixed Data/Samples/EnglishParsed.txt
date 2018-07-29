@@ -1,0 +1,157 @@
+SentenceID:1
+*	NP	breath
+@	JJ	fresh
+@	NN	breath
+*	CC	and
+@	CC	and
+*	NP	teeth
+@	VBG	shining
+@	NNS	teeth
+*	VP	enhance
+@	VB	enhance
+*	NP	personality
+@	PRP$	your
+@	NN	personality
+#
+SentenceID:2
+*	NP	self-confidence
+@	PRP$	your
+@	NN	self-confidence
+*	ADVP	also
+@	RB	also
+*	VP	increases
+@	VBZ	increases
+*	NP	teeth
+@	IN	with
+@	NNS	teeth
+#
+SentenceID:3
+*	NP	bacteria
+@	NNS	bacteria
+*	VP	stay
+@	VBP	stay
+*	NP	gums
+@	IN	between
+@	PRP$	our
+@	NNS	gums
+*	CC	and
+@	CC	and
+*	NP	teeth
+@	NNS	teeth
+#
+SentenceID:4
+*	NP	they
+@	PRP	they
+*	VP	make
+@	VBP	make
+*	NP	teeth
+@	NNS	teeth
+*	ADJP	dirty
+@	JJ	dirty
+*	CC	and
+@	CC	and
+*	ADJP	breath
+@	JJ	breath
+*	ADVP	stinky
+@	RB	stinky
+#
+SentenceID:5
+*	NP	you
+@	PRP	you
+*	VP	keep
+@	MD	may
+@	VB	keep
+*	NP	teeth
+@	PRP$	your
+@	NNS	teeth
+*	ADJP	clean
+@	JJ	clean
+*	CC	and
+@	CC	and
+*	NP	breath
+@	NN	breath
+*	ADJP	fresh
+@	JJ	fresh
+*	NP	help
+@	IN	by
+@	DT	the
+@	NN	help
+*	NP	tips
+@	IN	of
+@	DT	some
+@	JJ	easy
+@	NNS	tips
+*	VP	given
+@	VBN	given
+*	ADVP	here
+@	RB	here
+#
+SentenceID:6
+*	VP	clean
+@	VB	clean
+*	NP	teeth
+@	PRP$	your
+@	NNS	teeth
+*	ADVP	properly
+@	RB	properly
+#
+SentenceID:7
+*	NP	it
+@	PRP	it
+*	VP	takes
+@	VBZ	takes
+*	NP	minutes
+@	CD	two
+@	TO	to
+@	CD	three
+@	NNS	minutes
+*	VP	clean
+@	TO	to
+@	VB	clean
+*	NP	teeth
+@	PRP$	your
+@	NNS	teeth
+*	ADVP	properly
+@	RB	properly
+#
+SentenceID:8
+*	NP	people
+@	JJS	most
+@	IN	of
+@	DT	the
+@	NNS	people
+*	VP	give
+@	VBP	give
+*	NP	minute
+@	JJR	less
+@	IN	than
+@	CD	one
+@	NN	minute
+@	IN	for
+@	DT	this
+#
+SentenceID:9
+*	VP	drink
+@	VB	drink
+*	NP	water
+@	RB	plenty
+@	IN	of
+@	NN	water
+#
+SentenceID:10
+*	NP	bacteria
+@	NNS	bacteria
+*	VP	attack
+@	VBP	attack
+*	ADVP	fast
+@	RB	fast
+*	VP	if
+@	IN	if
+*	NP	mouth
+@	DT	the
+@	NN	mouth
+*	VP	dries
+@	VBZ	dries
+*	VP	up
+@	RP	up
+#
