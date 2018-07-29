@@ -118,24 +118,24 @@ def get_list_from_file(hin_word):
 
 flag = False
 count = 0
-for (i,x) in enumerate(new_phrase_tags_hin[:1000]):
+for (i,x) in enumerate(phrase_tags_hin):
     count=0
     for (j,y) in enumerate(x):
         if y=='NP' and count<3:
             flag=False
-            head = new_heads_hin[i][j]
+            head = heads_hin[i][j]
             matches = get_list_from_file(head)
-            for (c,z) in enumerate(new_heads_eng[i]):
+            for (c,z) in enumerate(heads_eng[i]):
                 if z in matches:
-                    replacement_phrase=new_phrases_eng[i][c]
+                    replacement_phrase=phrases_eng[i][c]
                     count = count + 1
                     temp_sent.append(replacement_phrase)
                     flag=True
                     break
             if(flag!=True):
-                temp_sent.append(new_phrases_hin[i][j])
+                temp_sent.append(phrases_hin[i][j])
         else:
-            temp_sent.append(new_phrases_hin[i][j])
+            temp_sent.append(phrases_hin[i][j])
     newsentences.append(temp_sent)
     temp_sent = []
 
