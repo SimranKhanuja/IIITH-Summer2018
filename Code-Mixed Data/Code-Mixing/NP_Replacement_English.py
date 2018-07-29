@@ -170,3 +170,9 @@ for (i,x) in enumerate(phrase_tags_eng):
     newsentenceseng.append(temp_sent)
     temp_sent = []
 
+#Writing into a file    
+codemixed = open("CodeMixedEnglish.txt",'w',encoding='utf-8')
+for i in newsentenceseng:
+    codemixed.write(" ".join(x for x in i))
+    codemixed.write("\n")
+codemixed.close()
