@@ -1,0 +1,244 @@
+<Sentence id="1">			
+1	((	NP	<fs af='साँस,n,f,pl,3,d,0,0' head='साँसें'>
+1.1	ताजा	JJ	<fs af='ताजा,adj,m,sg,,d,,' name='ताजा'>
+1.2	साँसें	NN	<fs af='साँस,n,f,pl,3,d,0,0' name='साँसें'>
+	))		
+2	((	CCP	<fs af='और,avy,,,,,,' head='और'>
+2.1	और	CC	<fs af='और,avy,,,,,,' name='और'>
+	))		
+3	((	NP	<fs af='दाँत,n,m,sg,3,d,0,0' head='दाँत'>
+3.1	चमचमाते	JJ	<fs af='चमचमा,v,m,pl,any,,ता,wA' name='चमचमाते'  poslcat="NM">
+3.2	दाँत	NN	<fs af='दाँत,n,m,sg,3,d,0,0' name='दाँत'>
+	))		
+4	((	NP	<fs af='व्यक्तित्व,n,m,sg,3,d,0,0' head='व्यक्तित्व'>
+4.1	आपके	PRP	<fs af='आप,pn,m,pl,any,d,का,kA' name='आपके'>
+4.2	व्यक्तित्व	NN	<fs af='व्यक्तित्व,n,m,sg,3,d,0,0' name='व्यक्तित्व'>
+4.3	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))		
+5	((	VGF	<fs af='निखार,v,m,pl,any,,ता,wA' head='निखारते'>
+5.1	निखारते	VM	<fs af='निखार,v,m,pl,any,,ता,wA' name='निखारते'>
+5.2	हैं	VAUX	<fs af='है,v,any,pl,1,,है,hE' name='हैं'>
+5.3	.	SYM	<fs af='&डोट्;,punc,,,,,,' name='.'>
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	NP	<fs af='दाँता,n,m,pl,3,o,0,0' head='दाँतों'>
+1.1	दाँतों	NN	<fs af='दाँता,n,m,pl,3,o,0,0' name='दाँतों'>
+1.2	से	PSP	<fs af='से,psp,,,,,,' name='से'>
+	))		
+2	((	NP	<fs af='आत्मविश्‍वास,unk,,,,,,' poslcat="NM"  head='आत्मविश्‍वास'>
+2.1	आपका	PRP	<fs af='आप,pn,m,sg,any,d,का,kA' name='आपका'>
+2.2	आत्मविश्‍वास	NN	<fs af='आत्मविश्‍वास,unk,,,,,,' poslcat="NM"  name='आत्मविश्‍वास'>
+2.3	भी	RP	<fs af='भी,avy,,,,,,' name='भी'>
+	))		
+3	((	VGF	<fs af='बढ,v,m,sg,any,d,ता,wA' head='बढ़ता'>
+3.1	बढ़ता	VM	<fs af='बढ,v,m,sg,any,d,ता,wA' name='बढ़ता'>
+3.2	है	VAUX	<fs af='है,v,any,sg,2,,है,hE' name='है'>
+3.3	.	SYM	<fs af='&डोट्;,punc,,,,,,' name='.'>
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	NP	<fs af='मसूढ़ों,unk,,,,,,' head='मसूढ़ों'  poslcat="NM">
+1.1	हमारे	PRP	<fs af='हमारे,unk,,,,,,' poslcat="NM"  name='हमारे'>
+1.2	मसूढ़ों	NN	<fs af='मसूढ़ों,unk,,,,,,' name='मसूढ़ों'  poslcat="NM">
+	))		
+2	((	CCP	<fs af='और,avy,,,,,,' head='और'>
+2.1	और	CC	<fs af='और,avy,,,,,,' name='और'>
+	))		
+3	((	NP	<fs af='दाँता,n,m,pl,3,o,0,0' head='दाँतों'>
+3.1	दाँतों	NN	<fs af='दाँता,n,m,pl,3,o,0,0' name='दाँतों'>
+3.2	के	PSP	<fs af='का,psp,m,sg,,o,का,kA' name='के'>
+3.3	बीच	NST	<fs af='बीच,n,m,sg,3,d,0,0' name='बीच'  poslcat="NM">
+	))		
+4	((	NP	<fs af='बैक्टीरिया,n,m,sg,3,d,0,0' head='बैक्टीरिया'>
+4.1	बैक्टीरिया	NN	<fs af='बैक्टीरिया,n,m,sg,3,d,0,0' name='बैक्टीरिया'>
+	))		
+5	((	JJP	<fs af='मौजूद,adj,any,any,,any,,' head='मौजूद'>
+5.1	मौजूद	JJ	<fs af='मौजूद,adj,any,any,,any,,' name='मौजूद'>
+	))		
+6	((	VGF	<fs af='हो,v,m,pl,any,,ता,wA' head='होते'>
+6.1	होते	VM	<fs af='हो,v,m,pl,any,,ता,wA' name='होते'>
+6.2	हैं	VAUX	<fs af='है,v,any,pl,1,,है,hE' name='हैं'>
+6.3	.	SYM	<fs af='&डोट्;,punc,,,,,,' name='.'>
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	NP	<fs af='दाँता,n,m,pl,3,o,0,0' head='दाँतों'>
+1.1	ये	DEM	<fs af='यह,pn,any,pl,3,d,0,0' name='ये'>
+1.2	दाँतों	NN	<fs af='दाँता,n,m,pl,3,o,0,0' name='दाँतों'>
+1.3	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))		
+2	((	NP	<fs af='गंदा,n,m,sg,3,d,0,0' head='गंदा'>
+2.1	गंदा	NN	<fs af='गंदा,n,m,sg,3,d,0,0' name='गंदा'>
+	))		
+3	((	CCP	<fs af='और,avy,,,,,,' head='और'>
+3.1	और	CC	<fs af='और,avy,,,,,,' name='और'>
+	))		
+4	((	NP	<fs af='साँस,n,f,pl,3,o,0,0' head='साँसों'>
+4.1	साँसों	NN	<fs af='साँस,n,f,pl,3,o,0,0' name='साँसों'>
+4.2	को	PSP	<fs af='को,psp,,,,,,' name='को2'>
+	))		
+5	((	NP	<fs af='बदबूदार,n,m,sg,3,d,0,0' head='बदबूदार'>
+5.1	बदबूदार	NN	<fs af='बदबूदार,n,m,sg,3,d,0,0' name='बदबूदार'>
+	))		
+6	((	VGF	<fs af='बना,v,any,any,any,,0,0' head='बना'>
+6.1	बना	VM	<fs af='बना,v,any,any,any,,0,0' name='बना'>
+6.2	देते	VAUX	<fs af='दे,v,m,pl,any,,ता,wA' name='देते'>
+6.3	हैं	VAUX	<fs af='है,v,any,pl,1,,है,hE' name='हैं'>
+6.4	.	SYM	<fs af='&डोट्;,punc,,,,,,' name='.'>
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	NP	<fs af='यहाँ,adv,,,,,,' poslcat="NM"  head='यहाँ'>
+1.1	यहाँ	PRP	<fs af='यहाँ,adv,,,,,,' name='यहाँ'  poslcat="NM">
+1.2	दिए	PSP	<fs af='दे,v,m,pl,any,,या,yA' poslcat="NM"  name='दिए'>
+	))		
+2	((	NP	<fs af='नुस्खा,n,m,pl,3,o,0,0' head='नुस्खों'>
+2.1	कुछ	QF	<fs af='कुछ,adj,any,any,,d,,' name='कुछ'>
+2.2	आसान	JJ	<fs af='आसान,n,m,sg,3,d,0,0' poslcat="NM"  name='आसान'>
+2.3	नुस्खों	NN	<fs af='नुस्खा,n,m,pl,3,o,0,0' name='नुस्खों'>
+2.4	की	PSP	<fs af='का,psp,f,sg,,d,का,kA' name='की'>
+	))		
+3	((	NP	<fs af='मदद,n,f,sg,3,d,0,0' head='मदद'>
+3.1	मदद	NN	<fs af='मदद,n,f,sg,3,d,0,0' name='मदद'>
+3.2	से	PSP	<fs af='से,psp,,,,,,' name='से'>
+	))		
+4	((	NP	<fs af='आप,pn,any,any,any,o,0,0' head='आप'>
+4.1	आप	PRP	<fs af='आप,pn,any,any,any,o,0,0' name='आप'>
+	))		
+5	((	NP	<fs af='दाँता,n,m,pl,3,o,0,0' head='दाँतों'>
+5.1	अपने	PRP	<fs af='अपना,adj,m,sg,,o,,' poslcat="NM"  name='अपने'>
+5.2	दाँतों	NN	<fs af='दाँता,n,m,pl,3,o,0,0' name='दाँतों'>
+5.3	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))		
+6	((	JJP	<fs af='स्वच्छ,n,m,sg,3,d,0,0' head='स्वच्छ'  poslcat="NM">
+6.1	स्वच्छ	JJ	<fs af='स्वच्छ,n,m,sg,3,d,0,0' poslcat="NM"  name='स्वच्छ'>
+	))		
+7	((	CCP	<fs af='और,avy,,,,,,' head='और'>
+7.1	और	CC	<fs af='और,avy,,,,,,' name='और'>
+	))		
+8	((	NP	<fs af='साँस,n,f,pl,3,o,0,0' head='साँसों'>
+8.1	साँसों	NN	<fs af='साँस,n,f,pl,3,o,0,0' name='साँसों'>
+8.2	को	PSP	<fs af='को,psp,,,,,,' name='को2'>
+	))		
+9	((	JJP	<fs af='ताजा,adj,m,sg,,d,,' head='ताजा'>
+9.1	ताजा	JJ	<fs af='ताजा,adj,m,sg,,d,,' name='ताजा'>
+	))		
+10	((	VGF	<fs af='रख,v,any,any,any,,0,0' head='रख'>
+10.1	रख	VM	<fs af='रख,v,any,any,any,,0,0' name='रख'>
+10.2	सकते	VAUX	<fs af='सक,v,m,pl,any,,ता,wA' name='सकते'>
+10.3	हैं	VAUX	<fs af='है,v,any,pl,1,,है,hE' name='हैं'>
+10.4	.	SYM	<fs af='&डोट्;,punc,,,,,,' name='.'>
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	NP	<fs af='दाँता,n,m,pl,3,o,0,0' head='दाँतों'>
+1.1	दाँतों	NN	<fs af='दाँता,n,m,pl,3,o,0,0' name='दाँतों'>
+1.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))		
+2	((	RBP	<fs af='ठीक,adv,,,,,,' head='ठीक'>
+2.1	ठीक	RB	<fs af='ठीक,adv,,,,,,' name='ठीक'>
+2.2	से	PSP	<fs af='से,psp,,,,,,' name='से'>
+	))		
+3	((	JJP	<fs af='साफ,n,m,sg,3,d,0,0' head='साफ'  poslcat="NM">
+3.1	साफ	JJ	<fs af='साफ,n,m,sg,3,d,0,0' poslcat="NM"  name='साफ'>
+	))		
+4	((	VGF	<fs af='कर,v,any,pl,1,,एं,eM' head='करें'>
+4.1	करें	VM	<fs af='कर,v,any,pl,1,,एं,eM' name='करें'>
+4.2	.	SYM	<fs af='&डोट्;,punc,,,,,,' name='.'>
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	NP	<fs af='दाँता,n,m,pl,3,o,0,0' head='दाँतों'>
+1.1	दाँतों	NN	<fs af='दाँता,n,m,pl,3,o,0,0' name='दाँतों'>
+1.2	को	PSP	<fs af='को,psp,,,,,,' name='को'>
+	))		
+2	((	RBP	<fs af='ठीक,adv,,,,,,' head='ठीक'>
+2.1	ठीक	RB	<fs af='ठीक,adv,,,,,,' name='ठीक'>
+2.2	से	PSP	<fs af='से,psp,,,,,,' name='से'>
+	))		
+3	((	JJP	<fs af='साफ,n,m,sg,3,d,0,0' poslcat="NM"  head='साफ'>
+3.1	साफ	JJ	<fs af='साफ,n,m,sg,3,d,0,0' name='साफ'  poslcat="NM">
+	))		
+4	((	VGNN	<fs af='कर,v,m,pl,any,,ना,nA' head='करने'>
+4.1	करने	VM	<fs af='कर,v,m,pl,any,,ना,nA' name='करने'>
+4.2	में	PSP	<fs af='में,psp,,,,,,' name='में'>
+	))		
+5	((	NP	<fs af='मिनट,n,m,sg,3,d,0,0' head='मिनट'>
+5.1	दो	QC	<fs af='दो,n,m,sg,3,d,0,0' name='दो'  poslcat="NM">
+5.2	से	PSP	<fs af='से,psp,,,,,,' name='से2'>
+5.3	तीन	QC	<fs af='तीन,n,m,sg,3,d,0,0' name='तीन'  poslcat="NM">
+5.4	मिनट	NN	<fs af='मिनट,n,m,sg,3,d,0,0' name='मिनट'>
+5.5	का	PSP	<fs af='का,psp,m,sg,,d,का,kA' name='का'>
+	))		
+6	((	NP	<fs af='समय,n,m,sg,3,d,0,0' head='समय'>
+6.1	समय	NN	<fs af='समय,n,m,sg,3,d,0,0' name='समय'>
+	))		
+7	((	VGF	<fs af='लग,v,m,sg,any,,ता,wA' head='लगता'>
+7.1	लगता	VM	<fs af='लग,v,m,sg,any,,ता,wA' name='लगता'>
+7.2	है	VAUX	<fs af='है,v,any,sg,2,,है,hE' name='है'>
+7.3	.	SYM	<fs af='&डोट्;,punc,,,,,,' name='.'>
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	CCP	<fs af='लेकिन,avy,,,,,,' head='लेकिन'>
+1.1	लेकिन	CC	<fs af='लेकिन,avy,,,,,,' name='लेकिन'>
+	))		
+2	((	NP	<fs af='लोग,n,m,sg,3,d,0,0' head='लोग'>
+2.1	ज्यादातर	JJ	<fs af='ज्यादातर,adj,any,any,,any,,' name='ज्यादातर'>
+2.2	लोग	NN	<fs af='लोग,n,m,sg,3,d,0,0' name='लोग'>
+	))		
+3	((	NP	<fs af='यह,pn,m,pl,3,d,का,kA' head='इसके'>
+3.1	इसके	PRP	<fs af='यह,pn,m,pl,3,d,का,kA' name='इसके'>
+3.2	लिए	PSP	<fs af='लिए,psp,,,,,,' name='लिए'>
+	))		
+4	((	NP	<fs af='मिनट,n,m,sg,3,d,0,0' head='मिनट'>
+4.1	एक	QC	<fs af='एक,adj,any,any,,any,,' name='एक'>
+4.2	मिनट	NN	<fs af='मिनट,n,m,sg,3,d,0,0' name='मिनट'>
+4.3	से	PSP	<fs af='से,psp,,,,,,' name='से'>
+4.4	भी	RP	<fs af='भी,avy,,,,,,' name='भी'>
+	))		
+5	((	NP	<fs af='समय,n,m,sg,3,d,0,0' head='समय'>
+5.1	कम	QF	<fs af='कम,adj,any,any,,any,,' name='कम'>
+5.2	समय	NN	<fs af='समय,n,m,sg,3,d,0,0' name='समय'>
+	))		
+6	((	VGF	<fs af='दे,v,m,pl,any,,ता,wA' head='देते'>
+6.1	देते	VM	<fs af='दे,v,m,pl,any,,ता,wA' name='देते'>
+6.2	हैं	VAUX	<fs af='है,v,any,pl,1,,है,hE' name='हैं'>
+6.3	.	SYM	<fs af='&डोट्;,punc,,,,,,' name='.'>
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	NP	<fs af='पानी,n,m,sg,3,d,0,0' head='पानी'>
+1.1	खूब	JJ	<fs af='खूब,adj,any,any,,any,,' name='खूब'>
+1.2	पानी	NN	<fs af='पानी,n,m,sg,3,d,0,0' name='पानी'>
+	))		
+2	((	VGF	<fs af='पीएँ,unk,,,,,,' poslcat="NM"  head='पीएँ'>
+2.1	पीएँ	VM	<fs af='पीएँ,unk,,,,,,' name='पीएँ'  poslcat="NM">
+2.2	.	SYM	<fs af='&डोट्;,punc,,,,,,' name='.'>
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	NP	<fs af='मुँह,n,m,sg,3,d,0,0' head='मुँह'>
+1.1	मुँह	NN	<fs af='मुँह,n,m,sg,3,d,0,0' name='मुँह'>
+	))		
+2	((	VGNN	<fs af='सूख,v,m,pl,any,,ना,nA' head='सूखने'>
+2.1	सूखने	VM	<fs af='सूख,v,m,pl,any,,ना,nA' name='सूखने'>
+2.2	पर	PSP	<fs af='पर,psp,,,,,,' name='पर'>
+	))		
+3	((	NP	<fs af='बैक्टीरिया,n,m,sg,3,d,0,0' head='बैक्टीरिया'>
+3.1	बैक्टीरिया	NN	<fs af='बैक्टीरिया,n,m,sg,3,d,0,0' name='बैक्टीरिया'>
+	))		
+4	((	NP	<fs af='हमला,n,f,sg,3,d,0,0' head='हमला'>
+4.1	हमला	NN	<fs af='हमला,n,f,sg,3,d,0,0' name='हमला'>
+	))		
+5	((	JJP	<fs af='तेज,unk,,,,,,' poslcat="NM"  head='तेज'>
+5.1	तेज	JJ	<fs af='तेज,unk,,,,,,' name='तेज'  poslcat="NM">
+	))		
+6	((	VGF	<fs af='कर,v,any,any,any,,0,0' head='कर'>
+6.1	कर	VM	<fs af='कर,v,any,any,any,,0,0' name='कर'>
+6.2	देते	VAUX	<fs af='दे,v,m,pl,any,,ता,wA' name='देते'>
+6.3	हैं	VAUX	<fs af='है,v,any,pl,1,,है,hE' name='हैं'>
+6.4	.	SYM	<fs af='&डोट्;,punc,,,,,,' name='.'>
+	))		
+</Sentence>
