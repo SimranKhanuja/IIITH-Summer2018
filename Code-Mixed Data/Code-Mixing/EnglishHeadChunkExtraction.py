@@ -1,7 +1,7 @@
 #Creating a dictionary of phrase tags with it's corresponding heads according to the rules of the Hindi parser 
 #to create chunks in English which are consistent with the chunks output by the Hindi parser.
 from nltk.tree import ParentedTree
-eng=open('FormatForInputToEnglishHeadCode',encoding='utf-8')
+eng=open('FormatForInputToEnglishHeadCode.txt',encoding='utf-8')
 content = eng.read().split("\n")
 allsent = []
 allpos = []
@@ -120,7 +120,7 @@ for x in allsent:
 # In[102]:
 
 
-en = open('EnlishParsed','w',encoding='utf-8')
+en = open('EnlishParsed.txt','w',encoding='utf-8')
 for (j,i) in enumerate(allsent):
     en.write("SentenceID:" + str(j+1))
     en.write("\n")
