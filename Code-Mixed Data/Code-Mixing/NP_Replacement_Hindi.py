@@ -5,6 +5,8 @@ hin = open('HindiParsed.txt',encoding='utf-8')
 content1 = hin.read().split("\n")
 eng.close()
 hin.close()
+content.pop()
+content1.pop()
 
 
 # For extracting information from the parsed files and storing all of them in lists
