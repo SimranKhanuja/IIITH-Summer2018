@@ -120,7 +120,7 @@ for x in allsent:
 # In[102]:
 
 
-en = open('EnlishParsed.txt','w',encoding='utf-8')
+en = open('EnglishParsed.txt','w',encoding='utf-8')
 for (j,i) in enumerate(allsent):
     en.write("SentenceID:" + str(j+1))
     en.write("\n")
