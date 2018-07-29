@@ -1,0 +1,189 @@
+SentenceID:1
+*	NP	साँसें
+@	JJ	ताजा
+@	NN	साँसें
+*	CCP	और
+@	CC	और
+*	NP	दाँत
+@	JJ	चमचमाते
+@	NN	दाँत
+*	NP	व्यक्तित्व
+@	PRP	आपके
+@	NN	व्यक्तित्व
+@	PSP	को
+*	VGF	निखारते
+@	VM	निखारते
+@	VAUX	हैं
+@	SYM	.
+#
+SentenceID:2
+*	NP	दाँतों
+@	NN	दाँतों
+@	PSP	से
+*	NP	आत्मविश्‍वास
+@	PRP	आपका
+@	NN	आत्मविश्‍वास
+@	RP	भी
+*	VGF	बढ़ता
+@	VM	बढ़ता
+@	VAUX	है
+@	SYM	.
+#
+SentenceID:3
+*	NP	मसूढ़ो
+@	PRP	हमारे
+@	NN	मसूढ़ों
+*	CCP	और
+@	CC	और
+*	NP	दाँतों
+@	NN	दाँतों
+@	PSP	के
+@	NST	बीच
+*	NP	बैक्टीरिया
+@	NN	बैक्टीरिया
+*	JJP	मौजूद
+@	JJ	मौजूद
+*	VGF	होते
+@	VM	होते
+@	VAUX	हैं
+@	SYM	.
+#
+SentenceID:4
+*	NP	दाँतों
+@	DEM	ये
+@	NN	दाँतों
+@	PSP	को
+*	NP	गंदा
+@	NN	गंदा
+*	CCP	और
+@	CC	और
+*	NP	साँसों
+@	NN	साँसों
+@	PSP	को
+*	NP	बदबूदार
+@	NN	बदबूदार
+*	VGF	बना
+@	VM	बना
+@	VAUX	देते
+@	VAUX	हैं
+@	SYM	.
+#
+SentenceID:5
+*	NP	यहाँ
+@	PRP	यहाँ
+@	PSP	दिए
+*	NP	नुस्खों
+@	QF	कुछ
+@	JJ	आसान
+@	NN	नुस्खों
+@	PSP	की
+*	NP	मदद
+@	NN	मदद
+@	PSP	से
+*	NP	आप
+@	PRP	आप
+*	NP	दाँतों
+@	PRP	अपने
+@	NN	दाँतों
+@	PSP	को
+*	JJP	स्वच्
+@	JJ	स्वच्छ
+*	CCP	और
+@	CC	और
+*	NP	साँसों
+@	NN	साँसों
+@	PSP	को
+*	JJP	ताजा
+@	JJ	ताजा
+*	VGF	रख
+@	VM	रख
+@	VAUX	सकते
+@	VAUX	हैं
+@	SYM	.
+#
+SentenceID:6
+*	NP	दाँतों
+@	NN	दाँतों
+@	PSP	को
+*	RBP	ठीक
+@	RB	ठीक
+@	PSP	से
+*	JJP	सा
+@	JJ	साफ
+*	VGF	करें
+@	VM	करें
+@	SYM	.
+#
+SentenceID:7
+*	NP	दाँतों
+@	NN	दाँतों
+@	PSP	को
+*	RBP	ठीक
+@	RB	ठीक
+@	PSP	से
+*	JJP	साफ
+@	JJ	साफ
+*	VGNN	करने
+@	VM	करने
+@	PSP	में
+*	NP	मिनट
+@	QC	दो
+@	PSP	से
+@	QC	तीन
+@	NN	मिनट
+@	PSP	का
+*	NP	समय
+@	NN	समय
+*	VGF	लगता
+@	VM	लगता
+@	VAUX	है
+@	SYM	.
+#
+SentenceID:8
+*	CCP	लेकिन
+@	CC	लेकिन
+*	NP	लोग
+@	JJ	ज्यादातर
+@	NN	लोग
+*	NP	इसके
+@	PRP	इसके
+@	PSP	लिए
+*	NP	मिनट
+@	QC	एक
+@	NN	मिनट
+@	PSP	से
+@	RP	भी
+*	NP	समय
+@	QF	कम
+@	NN	समय
+*	VGF	देते
+@	VM	देते
+@	VAUX	हैं
+@	SYM	.
+#
+SentenceID:9
+*	NP	पानी
+@	JJ	खूब
+@	NN	पानी
+*	VGF	पीएँ
+@	VM	पीएँ
+@	SYM	.
+#
+SentenceID:10
+*	NP	मुँह
+@	NN	मुँह
+*	VGNN	सूखने
+@	VM	सूखने
+@	PSP	पर
+*	NP	बैक्टीरिया
+@	NN	बैक्टीरिया
+*	NP	हमला
+@	NN	हमला
+*	JJP	तेज
+@	JJ	तेज
+*	VGF	कर
+@	VM	कर
+@	VAUX	देते
+@	VAUX	हैं
+@	SYM	.
+#
