@@ -14,3 +14,4 @@
 ### NiceSortEng.txt and NiceSortHin.txt---->
 * These two files contain the giza++ alignments of the words after a simple post-processing.
 * This post-processing involved sorting the file in descending order of probabilties grouped by each English word and then removing the word pairs with probabilities below 10% to reduce complexity and redundancy
+* NiceSortEng contains the Giza++ alignments with English as the source language and NiceSortHin contains the alignments for hindi as the source language
