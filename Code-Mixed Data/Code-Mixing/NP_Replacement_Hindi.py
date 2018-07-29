@@ -1,7 +1,7 @@
 #Opening files
-eng = open('EnglishParsed',encoding='utf-8')
+eng = open('EnglishParsed.txt',encoding='utf-8')
 content = eng.read().split("\n")
-hin = open('HindiParsed',encoding='utf-8')
+hin = open('HindiParsed.txt',encoding='utf-8')
 content1 = hin.read().split("\n")
 eng.close()
 hin.close()
@@ -93,8 +93,8 @@ temp_sent = []
 replacement_phrase = []
 
 def get_list_from_file(hin_word):
-    feng=open('nicesorteng.txt',encoding='utf-8')
-    fhin=open('nicesorthin.txt',encoding='utf-8')
+    feng=open('NiceSortEng.txt',encoding='utf-8')
+    fhin=open('NiceSortHin.txt',encoding='utf-8')
     line_eng=feng.read().split('\n')
     line_hin=fhin.read().split('\n')
 
